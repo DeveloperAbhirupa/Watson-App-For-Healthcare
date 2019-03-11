@@ -20,13 +20,21 @@ body{
 .form-group{
   padding-bottom: 1vh;
 }
-
+.dataFeed{
+  margin-top: 10vh;
+}
 #text0{
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5vh;
   color:white;
-  margin-top: 3vh;
-  padding-left: 30vh;
+  margin-top: 10vh;
+  padding-left: 80vh;
+  text-align: center;
+}
+.algn{
+  padding-left: 25vh;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
 }
 .form-check-label{
   font-family: 'Montserrat', sans-serif;
@@ -53,4 +61,19 @@ input[type="radio"] {
     -ms-transform: scale(1.5); /* IE 9 */
     -webkit-transform: scale(1.5); /* Chrome, Safari, Opera */
     transform: scale(1.5);
+}
+#submit{
+font-family: 'Montserrat', sans-serif;
+font-size: 2vh;
+border-radius: 50px;
+padding: 1.0vh;
+width:15vh;
+background: black;
+border: none;
+opacity: 0.85;
+}
+#submit:hover{
+  opacity: 1;
+  cursor: pointer;
+  transition: 0.5s;
 }

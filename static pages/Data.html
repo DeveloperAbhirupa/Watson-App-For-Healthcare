@@ -12,21 +12,27 @@
 
 
 <body>
+  <nav class="navbar navbar-dark bg-dark">
+    <div class="container-fluid">
+    <div class="row">
+      <a class="navbar-brand" id="logo" href="#">  Nova+</a>
+    </div>
+  </div>
+  </nav>
+
 
   <div class="container-fluid">
-    <div class="row">
-      <div class="col-sm-3" id="logo" align="left">
-        Nova+
+    <div class="row" align="center">
+      <div id="text0">
+        User Information
       </div>
-      <div class="col-sm-9" id="text0">
-        Please enter your Information
-      </div>
-
     </div>
 
-    <div class="container-fluid" id="formUser">
+
+
+    <div class="container-fluid dataFeed" id="formUser">
       <div class="row">
-        <div class="col-sm-5" id="" align="left">
+        <div class="col-sm-5" id="" align="right">
           <form>
             <div class="form-group">
               <input type="text" class="form-control" id="user" placeholder="Username">
@@ -40,7 +46,7 @@
             <div class="form-group">
               <input type="email" class="form-control" id="email" placeholder="Email-Id">
             </div>
-            <div class="form-group">
+            <div class="form-group algn" align="left">
               Gender:
               <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
@@ -51,7 +57,7 @@
                 <label class="form-check-label" for="inlineRadio2">FEMALE</label>
               </div>
             </div>
-            <div class="form-group">
+            <div class="form-group algn" align="left">
               Pregnancy:
               <div class="form-check1 form-check-inline">
                 <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
@@ -69,13 +75,33 @@
         <div class="col-sm-2" id="" align="left">
 
         </div>
-        <div class="col-sm-5" id="">
+        <div class="col-sm-5" id="right">
+          <form>
+            <div class="form-group">
+              <input type="number" class="form-control" id="sys" placeholder="Systolic Pressure">
+            </div>
+            <div class="form-group">
+              <input type="number" class="form-control" id="dys" placeholder="Diastolic Pressure">
+            </div>
+            <div class="form-group">
+              <input type="number" class="form-control" id="pr" placeholder="Pulse Rate">
+            </div>
+            <div class="form-group">
+              <input type="number" class="form-control" id="bmi" placeholder="Body Mass Index">
+            </div>
+            <div class="form-group">
+              <input type="number" class="form-control" id="glu" placeholder="Glucose Level">
+            </div>
 
+
+          </form>
         </div>
 
       </div>
   </div>
-
+  <div class="container-fluid" align="center">
+    <button id="submit" type="submit" class="btn btn-primary" onclick="redirect()">Submit</button>
+  </div>
 
 
    <!-- All scripts are to be added here -->
@@ -84,6 +110,9 @@
    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
    <script>
 
+    function redirect(){
+      window.location.href="user.html";
+    }
    </script>
 </body>
 </html>

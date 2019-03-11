@@ -1,0 +1,19 @@
+body{
+  background: url("bg1.jpg");
+
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+#logo{
+  /* position: absolute; */
+  color:white;
+  text-align: left !important;
+  font-size: 3vh;
+  /* margin-top: 2vh; */
+  text-shadow: 3px 3px 3px grey;
+  font-family: 'Berkshire Swash', cursive;
+
+}

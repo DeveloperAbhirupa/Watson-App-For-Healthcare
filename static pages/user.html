@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Nova+</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+   <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Montserrat" rel="stylesheet">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="user.css">
+</head>
+
+
+
+<body>
+  <nav class="navbar navbar-light bg-dark">
+  <a class="navbar-brand" id="logo" href="#">Nova+</a>
+  <form class="form-inline">
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Logout</button>
+  </form>
+  </nav>
+  <div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-6" id="rec" >
+          <div id="text1" ><b>USER HEALTH RECORD</b></div><br><br>
+          <div id="data">
+              <div id="sys">Systolic Pressure: 00</div>
+              <div id="dys">Diastolic Pressure: 00</div>
+              <div id="pr">Pulse Rate: 00</div>
+              <div id="bmi">Body Mass Index: 00</div>
+              <div id="glu">Glucose Level: 00</div>
+          </div>
+        </div>
+
+        <div class="col-sm-6" id="" align="center">
+          <i class="fas fa-briefcase-medical"></i><button id="btn0" type="submit" class="btn btn-primary" onclick="redirect()">Talk To An Assistant</button><br><br><br>
+          <i class="fas fa-info-circle"></i><button id="btn1" type="submit" class="btn btn-primary" onclick="redirect1()">Make An Appointment</button>
+        </div>
+    </div>
+  </div>
+
+
+
+   <!-- All scripts are to be added here -->
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.js"></script>
+   <script>
+
+    function redirect(){
+      window.location.href="watson.html";
+    }
+   </script>
+</body>
+</html>
