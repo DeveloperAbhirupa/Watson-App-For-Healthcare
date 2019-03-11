@@ -3,19 +3,21 @@ body{
 
   /* Full height */
   height: 100%;
+  margin-top: 30vh;
 
   /* Center and scale the image nicely */
-  background-position: center;
+  /* background-position: center; */
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #logo{
+  /* position: absolute; */
   color:white;
   text-shadow: 3px 3px 3px grey;
   font-family: 'Berkshire Swash', cursive;
   font-size: 14vh;
-  margin-top:10vh;
+  margin-top:-10vh;
 }
 
 #btn1, #btn2{

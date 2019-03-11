@@ -1,0 +1,56 @@
+body{
+  background: url("bg1.jpg");
+
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+#logo{
+  /* position: absolute; */
+  color:white;
+  text-align: left !important;
+  font-size: 3vh;
+  margin-top: 2vh;
+  text-shadow: 3px 3px 3px grey;
+  font-family: 'Berkshire Swash', cursive;
+
+}
+.form-group{
+  padding-bottom: 1vh;
+}
+
+#text0{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5vh;
+  color:white;
+  margin-top: 3vh;
+  padding-left: 30vh;
+}
+.form-check-label{
+  font-family: 'Montserrat', sans-serif;
+}
+.form-check{
+  padding-left: 5vh;
+}
+.form-check1{
+  padding-left: 2.8vh;
+}
+#noP{
+  padding-left: 3vh;
+}
+.form-control{
+  width: 50vh !important;
+  border-radius: 50px;
+  padding: 2vh;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+}
+input[type="radio"] {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Chrome, Safari, Opera */
+    transform: scale(1.5);
+}
