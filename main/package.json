@@ -1,0 +1,21 @@
+{
+  "name": "nova",
+  "version": "1.0.0",
+  "description": "Health care application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abhirupa",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeveloperAbhirupa/Watson-App-For-Healthcare.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DeveloperAbhirupa/Watson-App-For-Healthcare/issues"
+  },
+  "homepage": "https://github.com/DeveloperAbhirupa/Watson-App-For-Healthcare#readme"
+}

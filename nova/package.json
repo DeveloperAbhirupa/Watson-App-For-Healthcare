@@ -1,0 +1,12 @@
+{
+  "name": "nova",
+  "version": "1.0.0",
+  "description": "Health Care Application",
+  "main": "\"server.js\"",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node server.js"
+  },
+  "author": "Abhirupa Mitra",
+  "license": "ISC"
+}
