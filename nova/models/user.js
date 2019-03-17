@@ -1,6 +1,6 @@
-const mongoose = require(mongoose);
+const mongoose = require('mongoose');
 const Schema = mongoose.Schema
-const bcrypt = require('bcrypt.js')
+const bcrypt = require('bcrypt')
 
 const userSchema = new Schema({
   email:String,
@@ -24,5 +24,5 @@ module.exports.hashPassword= async(password)=> {
   catch(error){
     throw new Error('Hashing failed', error)
   }
-  
+
 }
