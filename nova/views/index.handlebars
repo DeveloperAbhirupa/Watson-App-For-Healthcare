@@ -1,5 +1,82 @@
-<!-- Jumbotron -->
-<div class="jumbotron">
-  <h1>Site Authentication!</h1>
-  <p class="lead">Welcome aboard.</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Nova+</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+   <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+
+<body>
+   <div class="container-fluid" id="logo" align="center">Nova+ </div>
+   <div class="container-fluid" id="btnBody" align="center">
+     <button type="button" id="btn1" data-toggle="modal" data-target="#myModal" onclick="redirectSignup()">Sign Up</button><br>
+     <button type="button" id="btn2" data-toggle="modal" data-target="#myModal1">Login</button>
+   </div>
+
+
+
+  <!-- Modal -->
+
+<!-- MOdal for login -->
+<div class="modal fade" id="myModal1" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">Login</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+          </div>
+          <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">I am not a robot</label>
+          </div>
+          <button id="Loginbtn" type="submit" class="btn btn-primary" onclick="redirect()">Submit</button>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
 </div>
+
+
+
+
+
+
+   <!-- All scripts are to be added here -->
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+   <script>
+   $("#Loginbtn").click(function(){
+     console.log("Clicked");
+   })
+    function redirectSignup(){
+      window.location.href="Data.html";
+      console.log("redirectSignup processing");
+    }
+    function redirect(){
+      window.location.href="HomePage.html";
+    }
+   </script>
+</body>
+</html>

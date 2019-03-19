@@ -1,0 +1,52 @@
+body{
+  background: url("bg1.jpg");
+
+  /* Full height */
+  height: 100%;
+  margin-top: 30vh;
+
+  /* Center and scale the image nicely */
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#logo{
+  /* position: absolute; */
+  color:white;
+  text-shadow: 3px 3px 3px grey;
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 14vh;
+  margin-top:-10vh;
+}
+
+#btn1, #btn2{
+  border-radius: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2vh;
+  padding:1.3vh;
+  width: 32vh;
+}
+#btn1:hover, #btn2:hover{
+  background-color: white;
+  cursor:pointer;
+}
+#btn1{
+  margin-top: 6vh;
+}
+#btn2{
+  margin-top: 2vh;
+}
+.modal-content{
+    font-family: 'Montserrat', sans-serif;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height:16vh;
+  width: 100%;
+  background-color:#0c1a27;
+  color: white;
+  text-align: center;
+}
