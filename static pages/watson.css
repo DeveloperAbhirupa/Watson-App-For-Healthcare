@@ -17,3 +17,19 @@ body{
   font-family: 'Berkshire Swash', cursive;
 
 }
+
+#chatlioWidgetPlaceholder{
+  align-content: left!important;
+  margin-top: 8vh !important;
+  border-radius: 30px !important;
+  /* background-color: rgba(255,255,255,0.8)!important; */
+}
+#btn{
+  border-radius: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2vh;
+  margin-left: 75vh;
+  padding:1.3vh;
+  width: 32vh;
+  margin-top: 5vh;
+}

@@ -16,26 +16,60 @@
   <nav class="navbar navbar-light bg-dark">
   <a class="navbar-brand" id="logo" href="#">Nova+</a>
   <form class="form-inline">
-    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Logout</button>
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="location.href = 'index.html'">Logout</button>
   </form>
   </nav>
   <div class="container-fluid">
     <div class="row">
+      <div id="text1" align="center" ><b>USER HEALTH RECORD</b></div>
         <div class="col-sm-6" id="rec" >
-          <div id="text1" ><b>USER HEALTH RECORD</b></div><br><br>
+          <br>
           <div id="data">
-              <div id="sys">Systolic Pressure: 00</div>
-              <div id="dys">Diastolic Pressure: 00</div>
-              <div id="pr">Pulse Rate: 00</div>
-              <div id="bmi">Body Mass Index: 00</div>
-              <div id="glu">Glucose Level: 00</div>
+            <table class="table table-borderless">
+              <thead>
+                <tr>
+                  <th scope="col">Criteria</th>
+                  <th scope="col">Value</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Systolic Pressure</th>
+                  <td>132</td>
+                </tr>
+                <tr>
+                  <th scope="row">Diastolic Pressure</th>
+                  <td>89</td>
+                </tr>
+                <tr>
+                  <th scope="row">Pulse Rate</th>
+                  <td>68</td>
+                </tr>
+                <tr>
+                  <th scope="row">BMI</th>
+                  <td>30</td>
+                </tr>
+                <tr>
+                  <th scope="row">Glucose Level</th>
+                  <td>5.4</td>
+                </tr>
+              </tbody>
+            </table>
+
           </div>
+
         </div>
+        <br>
+        <br>
+
 
         <div class="col-sm-6" id="" align="center">
-          <i class="fas fa-briefcase-medical"></i><button id="btn0" type="submit" class="btn btn-primary" onclick="">Talk To An Assistant</button><br><br><br>
+          <i class="fas fa-briefcase-medical"></i><button id="btn0" type="submit" class="btn btn-primary" onclick="location.href = 'watson.html';">Talk To An Assistant</button><br><br><br>
           <i class="fas fa-info-circle"></i><button id="btn1" type="submit" class="btn btn-primary" onclick="location.href = 'geo.html';">Make An Appointment</button>
         </div>
+    </div>
+    <div class="row">
+        <canvas id="myChart"></canvas>
     </div>
   </div>
 
@@ -46,7 +80,10 @@
    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+   <script src="plot.js"></script>
    <script>
+
 
     function redirect(){
       window.location.href="appointment.html";

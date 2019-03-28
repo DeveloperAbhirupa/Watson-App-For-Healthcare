@@ -35,15 +35,19 @@
         <div class="col-sm-5" id="" align="right">
           <form>
             <div class="form-group">
+              <div class="txt" align="left">USERNAME:</div>
               <input type="text" class="form-control" id="user" placeholder="Username">
             </div>
             <div class="form-group">
+              <div class="txt" align="left">PASSWORD:</div>
               <input type="password" class="form-control" id="psw1" placeholder="Password">
             </div>
             <div class="form-group">
+              <div class="txt" align="left">RE-ENTER PASSWORD:</div>
               <input type="password" class="form-control" id="psw2" placeholder="Re-enter Password">
             </div>
             <div class="form-group">
+              <div class="txt" align="left">E-MAIL:</div>
               <input type="email" class="form-control" id="email" placeholder="Email-Id">
             </div>
             <div class="form-group algn" align="left">
@@ -78,19 +82,24 @@
         <div class="col-sm-5" id="right">
           <form>
             <div class="form-group">
-              <input type="number" class="form-control" id="sys" placeholder="Systolic Pressure">
+              <div class="txtr" align="left">SYSTOLIC PRESSURE:</div>
+              <input type="text" class="form-control" id="sys" placeholder="Systolic Pressure">
             </div>
             <div class="form-group">
-              <input type="number" class="form-control" id="dys" placeholder="Diastolic Pressure">
+              <div class="txtr" align="left">DIASTOLIC PRESSURE:</div>
+              <input type="text" class="form-control" id="dys" placeholder="Diastolic Pressure">
             </div>
             <div class="form-group">
-              <input type="number" class="form-control" id="pr" placeholder="Pulse Rate">
+              <div class="txtr" align="left">PULSE RATE:</div>
+              <input type="text" class="form-control" id="pr" placeholder="Pulse Rate">
             </div>
             <div class="form-group">
-              <input type="number" class="form-control" id="bmi" placeholder="Body Mass Index">
+              <div class="txtr" align="left">BMI:</div>
+              <input type="text" class="form-control" id="bmi" placeholder="Body Mass Index">
             </div>
             <div class="form-group">
-              <input type="number" class="form-control" id="glu" placeholder="Glucose Level">
+              <div class="txtr" align="left">GLUCOSE:</div>
+              <input type="text" class="form-control" id="glu" placeholder="Glucose Level">
             </div>
 
 
@@ -111,7 +120,8 @@
    <script>
 
     function redirect(){
-      window.location.href="user.html";
+      window.alert("YOUR INFORMATION HAS BEEN SUBMITTED. Navigate back to the Main Page and Login");
+      // window.location.href="user.html";
     }
    </script>
 </body>

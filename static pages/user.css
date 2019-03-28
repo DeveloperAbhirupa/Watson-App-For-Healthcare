@@ -5,7 +5,14 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+#myChart{
+  margin-top: 20px;
+  background: rgba(255,255,255,0.8)!important;
+  width:154vh!important;
+  height: 50vh!important;
+  margin-left: 23.5vh;
+  /* border-radius: 50px; */
+}
 
 #logo{
   /* position: absolute; */
@@ -21,21 +28,21 @@ body{
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5vh;
   color: white;
-  margin-left: 38vh;
-  margin-top: 10vh;
+  margin-left:90vh;
+  margin-top: 3vh;
 }
 #data{
   font-family: 'Montserrat', sans-serif;
-  font-size: 2.5vh;
+  font-size: 1.8vh;
   color:black;
   background: white;
   opacity:0.7;
-  width: 45vh;
-  border-radius: 20px;
+  width: 59vh;
+  /* border-radius: 20px; */
   padding-left: 5vh;
-  padding-top: 4vh;
-  padding-bottom: 4vh;
-  margin-left: 30vh;
+  padding-top: 21h;
+  padding-bottom: 0vh;
+  margin-left: 22vh;
 }
 #btn0, #btn1{
   position: absolute;
@@ -47,7 +54,7 @@ body{
   background: black;
   border: none;
   /* opacity: 0.85; */
-  margin-top: 20vh;
+  margin-top: 10vh;
   margin-right:-60vh;
   opacity: 0.75;
 }
@@ -59,7 +66,7 @@ body{
 }
 .fas{
   position: absolute;
-  margin-top: 21vh;
+  margin-top: 11vh;
   margin-left: -10vh;
   /* margin-bottom: 15vh; */
   -webkit-transform: scale(3.5);

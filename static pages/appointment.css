@@ -20,6 +20,7 @@ body{
 .card{
   margin-bottom: 5vh;
   border-radius: 70px;
+  background: none;
 }
 .cards{
   color: white !important;
@@ -52,7 +53,7 @@ opacity: 0.75;
   padding-left:  2vh;
   height: 500px;
   /* margin: 10px auto; */
-  width: 186.5vh;
+  width: 196.5vh;
 }
 #btn0:hover{
   opacity: 1.0;

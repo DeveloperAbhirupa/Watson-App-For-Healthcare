@@ -31,6 +31,18 @@ body{
   padding-left: 80vh;
   text-align: center;
 }
+.txt{
+  padding-left: 28vh;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-weight: bold;
+}
+.txtr{
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-weight: bold;
+
+}
 .algn{
   padding-left: 25vh;
   font-family: 'Montserrat', sans-serif;
